@@ -1,0 +1,57 @@
+.form {
+  margin-top: 20px;
+}
+
+.number {
+  padding: 5px 10px;
+  background-color: red;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+}
+
+.companyNameLabel {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+    font-size: 13px;
+}
+
+.companyNameInput {
+  height: 40px;
+  width: 100%;
+  border: none;
+  padding: 0 10px;
+}
+
+.dates {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dates > * {
+  width: 50%;
+}
+
+.startDateLabel {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.endDateLabel {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.datePicker {
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  width: 42vw;
+  padding: 0 10px;
+}

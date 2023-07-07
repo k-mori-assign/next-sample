@@ -2,6 +2,7 @@
 
 import styles from "./page.module.css";
 import Accordion from "./components/accordion";
+import Link from 'next/link'
 
 export default function workExperience() {
   return (
@@ -9,6 +10,9 @@ export default function workExperience() {
       <Accordion title="コンサルタント" list={List} />
       <Accordion title="財務アドバイザリー" list={List2} />
       <Accordion title="金融専門職" list={List3} />
+      <Link href="/register/placeOfWork">
+      戻る
+      </Link>
     </div>
   );
 }
